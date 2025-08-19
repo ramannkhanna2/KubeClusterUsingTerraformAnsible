@@ -7,6 +7,6 @@ variable "region" {
 variable "key_name" {
   description = "The SSH key pair name to access the EC2 instances"
   type        = string
-  default     = "kyndryl_8th_key"  # Modify this with your SSH key pair
+  default     = "raman-sao-19th"  # Modify this with your SSH key pair
 }
 
