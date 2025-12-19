@@ -7,6 +7,6 @@ variable "region" {
 variable "key_name" {
   description = "The SSH key pair name to access the EC2 instances"
   type        = string
-  default     = "kube-keypair"  # Modify this with your SSH key pair
+  default     = "cisco-keypair"  # Modify this with your SSH key pair
 }
 
